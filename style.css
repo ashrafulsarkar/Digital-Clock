@@ -1,0 +1,73 @@
+/* 
+Author: Ashraful Sarkar
+Description: Digital Clock
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    background: linear-gradient(#1b7abf, #2789d1);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*================== clock ================*/
+body#digital {
+    background: #d1d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock-wrapper {
+    width: 900px;
+    height: 450px;
+    background: #fff;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 18px 3px #757171c7;
+}
+.clock-wrapper h2 {
+    text-align: center;
+    padding: 60px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.digital-time {
+    display: inline-block;
+    width: 110px;
+    height: 120px;
+    background: #aaaaaa;
+    margin: 0 10px;
+    border-radius: 10px;
+    line-height: 120px;
+    font-size: 50px;
+    text-transform: lowercase;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
